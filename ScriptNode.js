@@ -7,7 +7,6 @@ const argv = yargs
     .option('site', {
         alias: 's',
         describe: 'choose a site id',
-        choices: ['MLA','OTHER'],
         default: 'MLA'
       })
     .option('seller', {
